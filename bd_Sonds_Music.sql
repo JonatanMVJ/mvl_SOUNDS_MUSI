@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Base de datos: `Sonds_Music`
+-- Base de datos: `Sounds_Music`
 --
 
 -- --------------------------------------------------------
@@ -26,7 +26,7 @@ SET time_zone = "+00:00";
 -- Estructura de tabla para la tabla `categoria`
 --
 
-CREATE TABLE IF NOT EXISTS `platillos` (
+CREATE TABLE IF NOT EXISTS `categoria` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `precio` float(6,2) NOT NULL,
   `disponible` int(11) NOT NULL,
@@ -37,7 +37,7 @@ CREATE TABLE IF NOT EXISTS `platillos` (
 -- Volcado de datos para la tabla `categoria`
 --
 
-INSERT INTO `platillos` (`Nombre_categoria`, `Descripcion`, `Fecha_creacion`, `Nombre_producto`,`Costos_promedios`,`Img_producto`,`Nombre_fabricante`) VALUES
+INSERT INTO `categoria` (`Nombre_categoria`, `Descripcion`, `Fecha_creacion`, `Nombre_producto`,`Costos_promedios`,`Img_producto`,`Nombre_fabricante`) VALUES
 (1, 'Cuerdas',Cafe,2023,Guitarra,2000,img.jpeg,Braulio),
 (2, 'Electrico',Negro,2022,Teclado,1500,img.jpeg,Jonatan),
 (3, 'Aire',Crema,2021,Flauta,4000,img.jpeg,Alonso);
