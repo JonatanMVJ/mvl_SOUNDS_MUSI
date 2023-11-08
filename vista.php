@@ -7,7 +7,6 @@
 <body>
 	<h1>base de datos bd_sounds_music </h1>
 	<h1>tabla categoria </h1>
-	<h1>Platillos disponibles</h1>
 	<table border="1">
 		<tr>
 			<td><strong> Nombre_categoria</strong></td>
